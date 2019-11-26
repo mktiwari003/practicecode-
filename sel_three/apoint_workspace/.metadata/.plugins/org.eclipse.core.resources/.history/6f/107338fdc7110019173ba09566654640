@@ -1,0 +1,29 @@
+package FactoryDesignPattern;
+
+public class TakeClassName {
+	
+	
+	
+	 public void getClassName() {
+	        String className = this.getClass().getSimpleName(); 
+	       
+	        System.out.println("Name:" + className);
+	    }
+
+	 public static void main(String args[]) {
+		   int i = 10;
+		   int j = 30;
+		      i = i + j ;  
+		   System.out.println(i);
+		 
+		   String s="Sachin";  
+		   s.concat(" Tendulkar");//concat() method appends the string at the end  
+		   System.out.println(s);//will print Sachin because strings are immutable objects 
+		   s =  s.concat(" Tendulkar");
+
+		 TakeClassName t = new TakeClassName();
+	        t.getClassName();
+	        
+	    }
+	 
+}

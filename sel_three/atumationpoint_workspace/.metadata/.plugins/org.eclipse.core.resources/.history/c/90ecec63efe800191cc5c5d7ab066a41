@@ -1,0 +1,34 @@
+package com.selenium4.selenium4jar;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        
+        System.out.println( "Hello World!" );
+        
+        System.setProperty("webdriver.chrome.driver", "D:\\software\\browser\\chromedriver_win32\\chromedriver.exe");
+        		
+        
+        	WebDriver driver = new FirefoxDriver();
+        	
+        	
+        	
+        	
+        	//driver.findElement(By.tagName("xxx").b);
+        
+        		    }
+
+	
+	}
+

@@ -1,0 +1,36 @@
+package com.selenium.Selenium3_4;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+       /* System.out.println( "Hello World!" );
+        
+System.setProperty("webdriver.chrome.driver", "D:\\software\\browser\\chromedriver_win32\\chromedriver.exe");
+		
+	//	WebDriver driver = new ChromeDriver();
+
+		ChromeDriver driver = new ChromeDriver();
+		*/
+    	
+    	
+    	String s="nitin";  
+    	StringBuilder sb=new StringBuilder(s);  
+    	sb.reverse();
+    	System.out.println(sb);
+    	String rev=sb.toString();//converting StringBuilder to String  
+    	if(s.equals(rev)){  
+    	System.out.println("Palindrome String");  
+    	}else{  
+    	System.out.println("Not Palindrome String");  
+    	}  
+    	
+    	
+    	
+    	
+    }
+}

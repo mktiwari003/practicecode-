@@ -1,0 +1,15 @@
+package com.testing.simpleproject;
+
+public class AppTest4 {
+public void testPrintMessage() {
+		
+		System.out.println("###################  Starting APP Test is running #############################");
+		
+		 System.out.println("#################################   Hello World! checking DevOPS commt###########################");
+		 
+		 System.out.println("DEVOPS is good apprach to autoamte SDLC");
+
+		 System.out.println("###################  Ending APP Test is running #############################");
+		 
+			   }
+}

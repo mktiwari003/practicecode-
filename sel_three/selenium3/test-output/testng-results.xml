@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48444" started-at="2017-06-25T04:43:28Z" finished-at="2017-06-25T04:44:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48444" started-at="2017-06-25T04:43:28Z" finished-at="2017-06-25T04:44:17Z">
+      <class name="com.selenium3test.Iframeexp1">
+        <test-method status="PASS" signature="criccBuzz()[pri:0, instance:com.selenium3test.Iframeexp1@475530b9]" name="criccBuzz" duration-ms="48420" started-at="2017-06-25T10:13:28Z" finished-at="2017-06-25T10:14:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- criccBuzz -->
+      </class> <!-- com.selenium3test.Iframeexp1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

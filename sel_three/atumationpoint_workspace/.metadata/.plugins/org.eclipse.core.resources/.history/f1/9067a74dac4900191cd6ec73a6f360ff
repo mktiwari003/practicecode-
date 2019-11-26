@@ -1,0 +1,11 @@
+package junitexample2;
+
+public class TestExample {
+	
+	
+	public void test() {
+		
+		System.out.println("Hello world");
+	}
+
+}

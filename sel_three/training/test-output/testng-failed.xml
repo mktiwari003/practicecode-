@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parallel test suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="Firefox Test(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.testng.exmple.ParallelExp2">
+        <methods>
+          <include name="search_TestCase"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="login_TestCase"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testng.exmple.ParallelExp2 -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+  <test name="Chrome Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.testng.exmple.ParallelExp2">
+        <methods>
+          <include name="search_TestCase"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testng.exmple.ParallelExp2 -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->

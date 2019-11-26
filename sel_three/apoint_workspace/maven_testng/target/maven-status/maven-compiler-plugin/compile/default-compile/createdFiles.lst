@@ -1,0 +1,4 @@
+com\testing\RunSeleniumInIEBrowser.class
+com\testing\App.class
+com\testing\AppTest.class
+com\testing\RunSeleniumInFirefox.class

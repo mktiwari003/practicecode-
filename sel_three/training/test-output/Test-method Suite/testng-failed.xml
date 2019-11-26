@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" name="Failed suite [Test-method Suite]" parallel="classes">
+  <parameter name="first-name" value="Cedric1"/>
+  <test name="Test1(failed)" parallel="classes">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.testng.exmple.ParameterExp1">
+        <methods>
+          <include name="testSingleString" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testng.exmple.ParameterExp1 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Test-method Suite] -->

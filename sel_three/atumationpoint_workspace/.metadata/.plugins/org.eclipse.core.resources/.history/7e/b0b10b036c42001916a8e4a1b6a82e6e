@@ -1,0 +1,35 @@
+package com.automationpoint;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class HandleCheckBox {
+	
+	public static void main(String[] args) throws InterruptedException {
+		
+WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
+
+		// Do login
+		         Thread.sleep(2000);
+			     driver.findElement(By.id("txtUsername")).sendKeys("admin");
+			     driver.findElement(By.id("txtPassword")).sendKeys("admin123");
+		         driver.findElement(By.id("btnLogin")).click();
+		         System.out.println("Loged in to Orange HRM");
+	
+	   // Navigate to Admin page  
+			     driver.findElement(By.xpath("//a[@id='menu_admin_viewAdminModule']/b")).click();
+			    // driver.findElement(By.id("btnAdd")).click();
+			     System.out.println("Opened user creation page");
+			     
+			     
+	  // How to handle check box 	
+			     
+			     driver.findElement(By.id("ohrmList_chkSelectAll")).click(); 
+		
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.testing;
+
+import org.junit.Test;
+
+public class Test11 {
+	
+	@Test()
+	public void test12() {
+		
+		System.out.println("Hello World");
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.staticjavaex;
+
+public class JavaStaticBlock {
+
+	// int a=40;//non static  
+	
+	static{System.out.println("static block is invoked");}  
+	
+	
+  public static void main(String args[]){ 
+	  System.out.println(a);
+	   System.out.println("Hello main");  
+	  } 
+}

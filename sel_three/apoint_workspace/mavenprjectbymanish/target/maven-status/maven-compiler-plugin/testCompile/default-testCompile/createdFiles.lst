@@ -1,0 +1,5 @@
+com\testing\mavenprjectbymanish\TestApplication.class
+com\testing\mavenprjectbymanish\MySuiteRunner.class
+com\testing\mavenprjectbymanish\AppTest.class
+com\testing\mavenprjectbymanish\LoginTest.class
+com\testing\mavenprjectbymanish\Parameterized_Test.class

@@ -1,0 +1,5 @@
+package com.automationpoint;
+
+public class VarargOverload {
+
+}

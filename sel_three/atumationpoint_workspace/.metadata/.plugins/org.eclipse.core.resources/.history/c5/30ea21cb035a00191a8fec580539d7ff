@@ -1,0 +1,129 @@
+package com.framework.ap;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Properties;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+public class SeleniumBasic {
+	
+	public static Properties CONFIG=null;
+	public static Properties OR=null;
+	
+	
+	
+	public void SeleniumBasic()  {
+		
+		try {
+			OR = new Properties();
+			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+"//src//com//framework//properties//OR.properties");
+			OR.load(ip);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	
+	private By getBy(String property, Properties props, ElementType type) {
+		By by = null;
+		try {
+			switch (type) {
+
+			case id:
+				by = By.id(props.getProperty(property));
+				break;
+			case name:
+				by = By.name(props.getProperty(property));
+				break;
+			case xpath:
+				by = By.xpath(props.getProperty(property));
+				break;
+			case clsname:
+				by = By.className(props.getProperty(property));
+				break;
+			default:
+				by = null;
+				break;
+			}
+		} catch (Exception e) {
+			/*ErrorBucketUtil.getErrorFromBucket("getBy failed: " + getPortableString(e.toString()) + ": " + property
+					+ " by : " + type.toString() + " value : " + props.getProperty(property));
+			*/		
+			by = null;
+		}
+		return by;
+	}
+	
+	public  Map<WebElement,String> waitForElementState(WebElement dr, String property, ElementType type,ElementCondition condition, Properties props,int time) {
+		WebElement element = null;
+		By by = getBy(property, props, type);
+		Map<WebElement, String> map = new HashMap<>();
+		element = getElement(dr,condition,by,time);
+		String message = "";
+		if (element == null) {
+			try {
+				throw new Exception();
+			} catch (Exception e) {
+				message = "State = " + condition.toString() + " failed: ";
+			}
+		} else {
+			message = "State = " + condition.toString() + " Passed: ";
+
+		}
+		map.put(element, message);
+		return map;
+	}
+	
+	
+	
+	/*
+	
+	BadeMethods:
+		 delay
+		isElementPresent
+		isElementEnabled 
+		isElementDisplayed 
+		elementClick
+		elementOnClick
+		isElementPresentByLocator
+		ElementClickByLocator
+		elementIndexClick
+		elementIndexGetText
+		elementIndexGetAttibute
+		elementGetState
+		getElementIndex
+		elementIndexGetSize
+		getElementLst
+		enterMessage
+		enterMessageWithoutClick 
+		enterMessageByIndex
+		 Leave Image related methods 
+		startApplication
+		openApplication
+		closeApplication
+		deviceHome
+		getText
+		waitForText
+		WaitForElementAttribute 
+		WaitForElementText
+		WaitforAttibuteValue
+		WaitForElement 
+		WaitForVisible 
+		waitForNotVisible
+		WaitForElementNotPresent 
+		waitForImage 
+		waitForImageText
+		waitForImageTextWithThresold
+		Swipe
+		screenTap
+		imageTextLongPress
+		elementlongPress 
+		elementlongPressByIndex 
+		swipe
+	*/
+}

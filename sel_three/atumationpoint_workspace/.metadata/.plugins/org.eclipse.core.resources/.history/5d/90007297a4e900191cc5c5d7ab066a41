@@ -1,0 +1,46 @@
+package com.selenium4.selenium4jar;
+
+    
+
+
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.locators.RelativeLocator;
+
+
+
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        
+        System.out.println( "Hello World!" );
+        
+        System.setProperty("webdriver.chrome.driver", "D:\\software\\browser\\chromedriver_win32\\chromedriver.exe");
+        		
+        
+        	WebDriver driver = new ChromeDriver();
+        	
+        	driver.get("https://opensource-demo.orangehrmlive.com/");
+        	
+        	
+        
+        	driver.findElement(RelativeLocator.withTagName("").toLeftOf(By.id("hell")));
+        	
+        	//driver.findElement(By.tagName("xxx").b);
+        
+        		    }
+
+	
+	}
+

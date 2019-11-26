@@ -1,0 +1,11 @@
+Inheritance : Deriving a class form a class by acquiring the properties of the class is 
+called inheritance. 
+
+Setter and getter: Setter is known as moderater and getter is know as accesser. 
+Super Key : Supper key word is used to call super class methods if the signature of super 
+and sub class are same.     
+
+Type of inheritance : Single inheritance and multiple inheritance 
+Single Inheritance: In java single inheritance is possible 
+Multiple Inheritance : In java multiple inheritance is not possible.   To do multiple inheritance 
+java provide interface concept.     

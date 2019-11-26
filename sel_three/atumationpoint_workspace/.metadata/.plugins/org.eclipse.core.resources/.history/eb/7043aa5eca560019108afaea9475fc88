@@ -1,0 +1,35 @@
+package com.framework.ap;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+public class SeleniumBasic {
+	
+	public static Properties CONFIG=null;
+	public static Properties OR=null;
+	
+	
+	
+	public void SeleniumBasic()  {
+		
+		try {
+			OR = new Properties();
+			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+"//src//com//qtpselenium//config/OR.properties");
+			OR.load(ip);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

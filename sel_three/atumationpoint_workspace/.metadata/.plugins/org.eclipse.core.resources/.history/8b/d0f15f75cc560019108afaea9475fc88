@@ -1,0 +1,108 @@
+package com.framework.ap;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.By;
+
+public class SeleniumBasic {
+	
+	public static Properties CONFIG=null;
+	public static Properties OR=null;
+	
+	
+	
+	public void SeleniumBasic()  {
+		
+		try {
+			OR = new Properties();
+			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+"//src//com//framework//properties//OR.properties");
+			OR.load(ip);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	
+	private By getBy(String property, Properties props, ElementTypes type) {
+		By by = null;
+		try {
+			switch (type) {
+
+			case id:
+				by = By.id(props.getProperty(property));
+				break;
+			case name:
+				by = By.name(props.getProperty(property));
+				break;
+			case xpath:
+				by = By.xpath(props.getProperty(property));
+				break;
+			case clsname:
+				by = By.className(props.getProperty(property));
+				break;
+			default:
+				by = null;
+				break;
+			}
+		} catch (Exception e) {
+			/*ErrorBucketUtil.getErrorFromBucket("getBy failed: " + getPortableString(e.toString()) + ": " + property
+					+ " by : " + type.toString() + " value : " + props.getProperty(property));
+			*/		
+			by = null;
+		}
+		return by;
+	}
+	
+	
+	
+	
+	
+	/*
+	
+	BadeMethods:
+		 delay
+		isElementPresent
+		isElementEnabled 
+		isElementDisplayed 
+		elementClick
+		elementOnClick
+		isElementPresentByLocator
+		ElementClickByLocator
+		elementIndexClick
+		elementIndexGetText
+		elementIndexGetAttibute
+		elementGetState
+		getElementIndex
+		elementIndexGetSize
+		getElementLst
+		enterMessage
+		enterMessageWithoutClick 
+		enterMessageByIndex
+		 Leave Image related methods 
+		startApplication
+		openApplication
+		closeApplication
+		deviceHome
+		getText
+		waitForText
+		WaitForElementAttribute 
+		WaitForElementText
+		WaitforAttibuteValue
+		WaitForElement 
+		WaitForVisible 
+		waitForNotVisible
+		WaitForElementNotPresent 
+		waitForImage 
+		waitForImageText
+		waitForImageTextWithThresold
+		Swipe
+		screenTap
+		imageTextLongPress
+		elementlongPress 
+		elementlongPressByIndex 
+		swipe
+	*/
+}

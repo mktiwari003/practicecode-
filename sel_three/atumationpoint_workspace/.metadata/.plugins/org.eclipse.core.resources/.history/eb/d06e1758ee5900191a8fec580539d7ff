@@ -1,0 +1,37 @@
+package com.framework.ap;
+
+import java.util.Properties;
+
+public class LoadORFile {
+	
+	private String browser;
+	private Properties props;
+	
+	
+	public LoadORFile(String browser) {
+		props = new Properties();
+		this.browser = browser;
+	}
+	
+	
+	
+	
+	
+	
+	public String getfilePath(String browser ) {
+		switch (browser) {
+
+		case "IE":
+			return "properties/IEOR.Properties";
+		case "Chrome":
+			return "properties/ChromeOR.properties";
+		case "Firefox":
+			return "UEConfigFiles/Samsung_OS8.properties";
+		default:
+			break;
+		}
+		return null;
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package FactoryDesignPattern;
+
+public class TakeClassName {
+	
+	
+	
+	 public void getClassName() {
+	        String className = this.getClass().getSimpleName(); 
+	        System.out.println("Name:" + className);
+	    }
+
+	 public static void main(String args[]) {
+
+		 TakeClassName t = new TakeClassName();
+	        t.getClassName();
+	        t.getAttributes();
+	    }
+	 
+}

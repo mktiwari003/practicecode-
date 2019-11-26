@@ -1,0 +1,10 @@
+package com.testing;
+
+public class Test12 {
+	
+public void test12() {
+		
+		System.out.println("Hello World test12");
+	}
+
+}

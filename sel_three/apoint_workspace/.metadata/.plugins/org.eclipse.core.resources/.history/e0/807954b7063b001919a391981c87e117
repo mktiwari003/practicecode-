@@ -1,0 +1,29 @@
+package com.testing.simpleproject;
+
+import junit.framework.Test;
+
+/**
+ * Unit test for simple App.
+ */
+
+public class AppTest {
+	
+	public void testPrintMessage() {
+		
+		 System.out.println("#################################   Hello World! checking the git commt###########################");
+		 
+		 System.out.println("testingn it all the way maven project");
+		
+			   }
+
+	
+	
+//     @Test 
+//     public void testPrintMessage() {	
+//	      System.out.println("Inside testPrintMessage()");     
+//	       
+//	   }
+//	
+	
+	
+	}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;driver&apos; to &apos;demoproject&apos;" description="Move &apos;driver&apos; to &apos;demoproject&apos;" destination="/demoproject" element1="/selenium_basic/driver" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1537009395635" updateReferences="true"/>
+</session>

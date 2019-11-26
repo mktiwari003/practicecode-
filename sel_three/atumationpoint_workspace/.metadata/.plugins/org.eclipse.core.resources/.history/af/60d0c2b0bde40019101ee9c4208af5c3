@@ -1,0 +1,12 @@
+package com.automationpoint;
+
+public class StringExampe {
+
+	public static void main(String[] args) {
+		
+		String str = new String("India");
+		String Str = New String("India"); 
+		
+	}
+
+}

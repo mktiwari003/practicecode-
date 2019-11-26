@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite A" duration-ms="67" started-at="2019-03-02T17:31:15Z" finished-at="2019-03-02T17:31:15Z">
+    <groups>
+    </groups>
+    <test name="Test A1" duration-ms="27" started-at="2019-03-02T17:31:15Z" finished-at="2019-03-02T17:31:15Z">
+      <class name="com.testing.AppTest">
+        <test-method status="PASS" signature="shouldAnswerWithTrue()[pri:0, instance:com.testing.AppTest@59fa1d9b]" name="shouldAnswerWithTrue" duration-ms="10" started-at="2019-03-02T23:01:15Z" finished-at="2019-03-02T23:01:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue -->
+        <test-method status="PASS" signature="shouldAnswerWithTrue2()[pri:0, instance:com.testing.AppTest@59fa1d9b]" name="shouldAnswerWithTrue2" duration-ms="1" started-at="2019-03-02T23:01:15Z" finished-at="2019-03-02T23:01:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue2 -->
+        <test-method status="PASS" signature="shouldAnswerWithTrue3()[pri:0, instance:com.testing.AppTest@59fa1d9b]" name="shouldAnswerWithTrue3" duration-ms="1" started-at="2019-03-02T23:01:15Z" finished-at="2019-03-02T23:01:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue3 -->
+      </class> <!-- com.testing.AppTest -->
+    </test> <!-- Test A1 -->
+    <test name="Test A2" duration-ms="3" started-at="2019-03-02T17:31:15Z" finished-at="2019-03-02T17:31:15Z">
+      <class name="com.testing.RunSeleniumInFirefox">
+        <test-method status="PASS" signature="shouldAnswerWithTrue2()[pri:0, instance:com.testing.RunSeleniumInFirefox@39c0f4a]" name="shouldAnswerWithTrue2" duration-ms="0" started-at="2019-03-02T23:01:15Z" finished-at="2019-03-02T23:01:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue2 -->
+      </class> <!-- com.testing.RunSeleniumInFirefox -->
+    </test> <!-- Test A2 -->
+    <test name="Test A3" duration-ms="3" started-at="2019-03-02T17:31:15Z" finished-at="2019-03-02T17:31:15Z">
+      <class name="com.testing.RunSeleniumInIEBrowser">
+        <test-method status="PASS" signature="shouldAnswerWithTrue3()[pri:0, instance:com.testing.RunSeleniumInIEBrowser@1a968a59]" name="shouldAnswerWithTrue3" duration-ms="0" started-at="2019-03-02T23:01:15Z" finished-at="2019-03-02T23:01:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue3 -->
+      </class> <!-- com.testing.RunSeleniumInIEBrowser -->
+    </test> <!-- Test A3 -->
+  </suite> <!-- Suite A -->
+</testng-results>

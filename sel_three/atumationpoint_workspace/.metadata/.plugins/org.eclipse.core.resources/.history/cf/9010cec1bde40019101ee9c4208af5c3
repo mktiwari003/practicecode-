@@ -1,0 +1,13 @@
+package com.automationpoint;
+
+public class StringExampe {
+
+	public static void main(String[] args) {
+		
+		String str = new String("India");
+		String str2 = new String("India");
+		System.out.println(str == str2);
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="D:/software/selenium_standalone/selenium-server-standalone-2.32.0.jar"/>
+	<classpathentry kind="lib" path="D:/software/excelpoi/dom4j-1.6.1 - Copy - Copy.jar"/>
+	<classpathentry kind="lib" path="D:/software/excelpoi/poi-3.9-20121203 - Copy.jar"/>
+	<classpathentry kind="lib" path="D:/software/excelpoi/poi-examples-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/software/excelpoi/poi-excelant-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/software/excelpoi/poi-ooxml-3.9-20121203 - Copy.jar"/>
+	<classpathentry kind="lib" path="D:/software/excelpoi/poi-ooxml-schemas-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/software/excelpoi/poi-scratchpad-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/software/excelpoi/stax-api-1.0.1 - Copy.jar"/>
+	<classpathentry kind="lib" path="D:/software/excelpoi/xmlbeans-2.3.0 - Copy.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

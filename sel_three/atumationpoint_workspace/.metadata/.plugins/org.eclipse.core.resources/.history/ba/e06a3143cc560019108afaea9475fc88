@@ -1,0 +1,5 @@
+package com.framework.ap;
+
+public enum ElementType {
+
+}

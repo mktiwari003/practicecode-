@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="56251" started-at="2017-07-23T04:35:39Z" finished-at="2017-07-23T04:36:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="56251" started-at="2017-07-23T04:35:39Z" finished-at="2017-07-23T04:36:36Z">
+      <class name="com.testng.exmple.TestAnnotationExp1">
+        <test-method status="PASS" signature="setCongiguration()[pri:0, instance:com.testng.exmple.TestAnnotationExp1@13a57a3b]" name="setCongiguration" is-config="true" duration-ms="8348" started-at="2017-07-23T10:05:39Z" finished-at="2017-07-23T10:05:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCongiguration -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:com.testng.exmple.TestAnnotationExp1@13a57a3b]" name="Test1" duration-ms="9305" started-at="2017-07-23T10:05:48Z" finished-at="2017-07-23T10:05:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:com.testng.exmple.TestAnnotationExp1@13a57a3b]" name="Test2" duration-ms="38563" started-at="2017-07-23T10:05:57Z" finished-at="2017-07-23T10:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="Test3()[pri:0, instance:com.testng.exmple.TestAnnotationExp1@13a57a3b]" name="Test3" duration-ms="2" started-at="2017-07-23T10:06:36Z" finished-at="2017-07-23T10:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method status="PASS" signature="Test4()[pri:0, instance:com.testng.exmple.TestAnnotationExp1@13a57a3b]" name="Test4" duration-ms="2" started-at="2017-07-23T10:06:36Z" finished-at="2017-07-23T10:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method status="PASS" signature="Test5()[pri:0, instance:com.testng.exmple.TestAnnotationExp1@13a57a3b]" name="Test5" duration-ms="1" started-at="2017-07-23T10:06:36Z" finished-at="2017-07-23T10:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5 -->
+        <test-method status="PASS" signature="DisposeTest()[pri:0, instance:com.testng.exmple.TestAnnotationExp1@13a57a3b]" name="DisposeTest" is-config="true" duration-ms="3" started-at="2017-07-23T10:06:36Z" finished-at="2017-07-23T10:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DisposeTest -->
+      </class> <!-- com.testng.exmple.TestAnnotationExp1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
