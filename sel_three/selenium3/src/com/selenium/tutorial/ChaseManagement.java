@@ -13,7 +13,7 @@ public class ChaseManagement {
 		throws InterruptedException {
 			  
 
-			  System.setProperty("webdriver.chrome.driver", "D:\\software\\selenium_standalone\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\SMR\\chromedriver_win32\\chromedriver.exe");
 			  
 			     
 			      

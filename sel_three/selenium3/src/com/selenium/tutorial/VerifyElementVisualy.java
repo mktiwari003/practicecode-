@@ -16,7 +16,7 @@ public class VerifyElementVisualy {
 		 
 		int duration = 10 ;
 		
-		System.setProperty("webdriver.chrome.driver", "D:\\software\\selenium_standalone\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\SMR\\chromedriver_win32\\chromedriver.exe");
 		  
 		WebDriver driver =  new  ChromeDriver();
 		driver.get("http://opensource.demo.orangehrmlive.com/");

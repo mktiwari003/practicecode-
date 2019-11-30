@@ -14,7 +14,7 @@ public static void main(String[] args) {
 		
 		
 		  
-		System.setProperty("webdriver.chrome.driver", "D:\\software\\selenium_standalone\\chromedriver_win32\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "D:\\SMR\\chromedriver_win32\\chromedriver.exe");
 	      
 	      ChromeDriver driver = new ChromeDriver();
 	      driver.get("https://jqueryui.com/slider/");
