@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [BDD Test Suite]">
+  <test thread-count="1" verbose="0" name="My Tests(failed)">
+    <classes>
+      <class name="com.automationpoint.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.automationpoint.TestRunner -->
+    </classes>
+  </test> <!-- My Tests(failed) -->
+</suite> <!-- Failed suite [BDD Test Suite] -->
