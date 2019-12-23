@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.604" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.003" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\SMR_21Nov\automation-bd\target\test-classes;D:\SMR_21Nov\automation-bd\target\classes;C:\Users\manish.tiwari\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\manish.tiwari\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\manish.tiwari\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;"/>
+    <property name="java.class.path" value="D:\DevOps\practicecode-\sel_three\apoint_workspace\automation-bd\target\test-classes;D:\DevOps\practicecode-\sel_three\apoint_workspace\automation-bd\target\classes;C:\Users\manish.tiwari\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\manish.tiwari\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\manish.tiwari\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,20 +18,20 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\MANISH~1.TIW\AppData\Local\Temp\surefire7880543764409552184\surefirebooter749855221550367929.jar C:\Users\manish.tiwari\AppData\Local\Temp\surefire7880543764409552184 2019-12-15T15-50-13_325-jvmRun1 surefire6282475123275551318tmp surefire_03030826573257801255tmp"/>
-    <property name="surefire.test.class.path" value="D:\SMR_21Nov\automation-bd\target\test-classes;D:\SMR_21Nov\automation-bd\target\classes;C:\Users\manish.tiwari\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\manish.tiwari\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\manish.tiwari\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;"/>
+    <property name="sun.java.command" value="C:\Users\MANISH~1.TIW\AppData\Local\Temp\surefire6317754935056442370\surefirebooter4426040305048487143.jar C:\Users\manish.tiwari\AppData\Local\Temp\surefire6317754935056442370 2019-12-22T14-05-43_726-jvmRun1 surefire8975587685705921590tmp surefire_04006456711027875884tmp"/>
+    <property name="surefire.test.class.path" value="D:\DevOps\practicecode-\sel_three\apoint_workspace\automation-bd\target\test-classes;D:\DevOps\practicecode-\sel_three\apoint_workspace\automation-bd\target\classes;C:\Users\manish.tiwari\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\manish.tiwari\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\manish.tiwari\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\manish.tiwari"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_161\jre"/>
-    <property name="basedir" value="D:\SMR_21Nov\automation-bd"/>
+    <property name="basedir" value="D:\DevOps\practicecode-\sel_three\apoint_workspace\automation-bd"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\MANISH~1.TIW\AppData\Local\Temp\surefire7880543764409552184\surefirebooter749855221550367929.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\MANISH~1.TIW\AppData\Local\Temp\surefire6317754935056442370\surefirebooter4426040305048487143.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -47,12 +47,12 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\MANISH~1.TIW\AppData\Local\Temp\"/>
     <property name="java.version" value="1.8.0_161"/>
-    <property name="user.dir" value="D:\SMR_21Nov\automation-bd"/>
+    <property name="user.dir" value="D:\DevOps\practicecode-\sel_three\apoint_workspace\automation-bd"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\apache-maven-3.6.3\bin;C:\Users\manish.tiwari\AppData\Local\Microsoft\WindowsApps;;D:\eclipse-jee-oxygen-R-win32-x86_64\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\apache-maven-3.6.3\bin;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Users\manish.tiwari\AppData\Local\Microsoft\WindowsApps;;D:\eclipse-jee-oxygen-R-win32-x86_64\eclipse;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.161-b12"/>
@@ -60,6 +60,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="AppTest12" classname="com.automation.bd.automation_bd.AppTest1" time="0.005"/>
+  <testcase name="AppTest12" classname="com.automation.bd.automation_bd.AppTest1" time="0"/>
   <testcase name="AppTest13" classname="com.automation.bd.automation_bd.AppTest1" time="0"/>
 </testsuite>

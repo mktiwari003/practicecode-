@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="29" started-at="2019-12-15T15:50:17 IST" finished-at="2019-12-15T15:50:17 IST">
+  <suite name="Suite1" duration-ms="38" started-at="2019-12-22T14:05:45 IST" finished-at="2019-12-22T14:05:45 IST">
     <groups>
     </groups>
-    <test name="Regression1" duration-ms="29" started-at="2019-12-15T15:50:17 IST" finished-at="2019-12-15T15:50:17 IST">
+    <test name="Regression1" duration-ms="38" started-at="2019-12-22T14:05:45 IST" finished-at="2019-12-22T14:05:45 IST">
       <class name="com.automation.bd.automation_bd.AppTest1">
-        <test-method status="PASS" signature="AppTest12()[pri:0, instance:com.automation.bd.automation_bd.AppTest1@c038203]" name="AppTest12" duration-ms="3" started-at="2019-12-15T15:50:17 IST" finished-at="2019-12-15T15:50:17 IST">
+        <test-method status="PASS" signature="AppTest12()[pri:0, instance:com.automation.bd.automation_bd.AppTest1@c038203]" name="AppTest12" duration-ms="4" started-at="2019-12-22T14:05:45 IST" finished-at="2019-12-22T14:05:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AppTest12 -->
-        <test-method status="PASS" signature="AppTest13()[pri:0, instance:com.automation.bd.automation_bd.AppTest1@c038203]" name="AppTest13" duration-ms="0" started-at="2019-12-15T15:50:17 IST" finished-at="2019-12-15T15:50:17 IST">
+        <test-method status="PASS" signature="AppTest13()[pri:0, instance:com.automation.bd.automation_bd.AppTest1@c038203]" name="AppTest13" duration-ms="0" started-at="2019-12-22T14:05:45 IST" finished-at="2019-12-22T14:05:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AppTest13 -->
